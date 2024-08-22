@@ -1,9 +1,8 @@
-
 ## Required Software
+
 - [Python 3.11.2](https://www.python.org/downloads/) or newer
 - [Node.js 14.16 LTS](https://nodejs.org/) or newer (For Tailwind.CSS)
 - [Git](https://git-scm.com/)
-
 
 ## how to run - backend
 
@@ -12,7 +11,7 @@
 2 cd MyStore.com/backend/
 3 python -m venv env
 4 .\env\Scripts\activate
-5 pip install -r requirements.txt 
+5 pip install -r requirements.txt
 6 python manage.py runserver
 ```
 
@@ -24,10 +23,11 @@
 3 npm install
 4 npm start
 
-in case npm install fails try running the command: 
-npm config set legacy-peer-deps true 
+in case npm install fails try running the command:
+npm config set legacy-peer-deps true
 before installing again
 ```
+
 ## running locally - frontend
 
 ```bash
@@ -36,10 +36,8 @@ from the prod root to the dev root
 ```
 
 ## Admin Credentials
+
 username: admin
 password: admin
 
 dockerfile included within front and back directories
-	
-## Live Website 
-frontend address - https://genuine-gumption-477c34.netlify.app/
